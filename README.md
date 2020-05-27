@@ -23,4 +23,6 @@ The user inputs tasks as they normally would with any to-do list but also how mu
 
 When the user does this with all their tasks, there is likely to be an uneven distribution of work over time. If more deadlines are on Mondays than the other days, for example, Sundays will probably have more work than Tuesdays. The program helps the user visualize this unevenness with a colour gradient graphic using red to indicate periods with lots of work and blue to indicate no work. So the user will be able to move work sessions back to even out their workload. 
 
+https://youtu.be/Q_Tlrru3qZA
+
 *UBC CPEN291 (Lena Kim, Alyssa Da Costa, Emily Lukas, Madeline Ferguson, Sarah Bornais, Sofia Bandeira) 
