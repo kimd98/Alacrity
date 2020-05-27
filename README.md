@@ -7,7 +7,7 @@ Alacrity is a web app meant to help students manage their time. It provides an i
 1. Individual user accounts with data stored in MySQL database
 2. Sign-in with Google authentication
 3. Single calendar view
-4. Manually move workload around calendar
+4. Manual movement of workload around calendar
 5. Automatic optimization of personal calendar using algorithm to spread work out as evenly as possible
 
 ## Technologies
