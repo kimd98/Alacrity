@@ -13,7 +13,7 @@ Alacrity is a web app meant to help students manage their time. It provides an i
 ## Technologies
 
 1. Apache server for frontend
-2. MySQL database to store user and block data
+2. MySQL database to store user and schedule block data
 3. Flask (python) backend using mod_WSGI to connect to Apache server
 4. React frontend with React Bootstrap
 
