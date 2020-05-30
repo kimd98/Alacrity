@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #title {
+      font-size: 60px;
+    }
+
+    #subtitle {
+      font-size: 30px !important;
+      margin-bottom: 20px !important;
+    }
+
+    .App-logo {
+      height: 75vmin !important;
+      margin-top: 45px;
+    }
+  }
+
+
+  .App-header {
+    padding-top: 3%;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    font-family: IBM Plex Mono, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 130px;
+  }
+
+  #wrapper {
+    align-items: center;
+  }
+
+  #logo {
+    position: relative;
+    padding-top: 20px;
+    z-index: 1;
+  }
+
+  #title {
+    position: relative;
+    margin-top: 5px;
+    z-index: 2;
+  }
+
+  #subtitle {
+    font-family: Noto Sans JP, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: 10px;
+  }
+
+  .App-link {
+    color: #000000;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

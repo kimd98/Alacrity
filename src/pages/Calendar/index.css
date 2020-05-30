@@ -1,0 +1,96 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#heading {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+}
+
+#heading p {
+    position: relative;
+    z-index: 2;
+}
+
+#side-bar {
+    flex: 2;
+    background-color: #352964;
+
+    color: white;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+#underline {
+    position: absolute;
+    bottom: -60px;
+    right: 0px;
+    z-index: 1;
+
+    height: 30px;
+    width: 90%;
+
+    background-color: rgba(188, 166, 215, 0.5);
+}
+
+#calendar-view {
+    flex: 7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.flip-calendar {
+    font-size: 25px;
+    color: rgba(196, 196, 196, 0.8);
+
+    width: 30px;
+    height: 30px;
+
+    border: 2px solid rgba(196, 196, 196, 0.8);
+    border-radius: 15px;
+}
+
+.task {
+    font-size: 25px;
+    color: rgba(196, 196, 196, 0.8);
+
+    width: 250px;
+    height: 75px;
+
+    border: 2px solid rgba(196, 196, 196, 0.8);
+    border-radius: 15px;
+}
+
+.flip-calendar:hover {
+    cursor: pointer;
+}
+
+.flip-calendar p {
+    margin-top: -5px;
+}
+
+#date-label {
+    font-size: 20px;
+}
+
+#task-list {
+    overflow-y: scroll;
+    height: 65vh;
+}
+
+#task-list::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+

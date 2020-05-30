@@ -1,0 +1,21 @@
+#btn {
+    border: 1px solid #4B4D52;
+    box-sizing: border-box;
+    border-radius: 20px;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: -webkit-max-content;
+    align-self: center;
+  
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  #btn:hover {
+    cursor: pointer;
+  }

@@ -1,0 +1,64 @@
+
+#calendar_container {
+    align-items: center;
+}
+
+#calendar_title {
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 58px;
+}
+
+#month_underline {
+    width: 90%;
+    height: 20px;
+    margin-top: -71px;
+    margin-left: 5%;
+    margin-bottom: 45px;
+
+    background-color: rgba(196, 196, 196, 0.5);
+}
+
+th {
+    font-family: Noto Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    color: #999999;
+}
+
+#legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 70%;
+    margin-left: 15%;
+
+    margin-top: 60px;
+}
+
+#legend p {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#color_legend {
+    width: 80%;
+    height: 6px;
+
+    border-radius: 3px;
+
+    margin-top: -10px;
+
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #4287F5, #42F56F, #ECF542, #F08B3E, #E31919); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #4287F5, #42F56F, #ECF542, #F08B3E, #E31919); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #4287F5, #42F56F, #ECF542, #F08B3E, #E31919); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #4287F5, #42F56F, #ECF542, #F08B3E, #E31919); /* Standard syntax (must be last) */
+}
